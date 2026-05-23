@@ -9,7 +9,7 @@ class FuncoesTest extends TestCase
     // Teste 1: entrada válida — "arara" é palíndromo
     public function testPalindromo(): void
     {
-        $this->assertTrue(ehPalindromo('arara'));
+        $this->assertTrue(ehPalindromo('php'));
     }
 
     // Teste 2: outro valor válido — "php" NÃO é palíndromo
